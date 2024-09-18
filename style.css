@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+
+#top_header {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aqua;
+}
+
+
+#featured-property {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 800px; /* Optional: limit the section width */
+  margin: 0 auto; /* Center the section horizontally */
+}
+
+#featured-property figcaption {
+  font-size: 12px;
+}
+
+
+#details div {
+  float: left;
+  text-align: center;
+  width: 25%;
+  background-color: red;
+}
